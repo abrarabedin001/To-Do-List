@@ -1,0 +1,58 @@
+body{
+    background-color:red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.to-do{
+    max-width: 600px;
+    min-width: 600px;
+    margin:auto;
+    margin-top: 30px;
+    
+    background-color:coral;
+}
+.life{
+     display:flex;
+     align-items: stretch;
+}
+.to-do-input{
+    color:beige;
+    border-bottom-color: black;
+    display:flex;
+    align-items: stretch;
+}
+.fles-input {
+    
+}
+
+input[type=text]{
+    background-color: aqua;
+    border: 2px solid black;
+    text-align: center;
+}
+
+input[type=text]>text{
+    padding: 5px;
+}
+
+#heading {
+    background-color: coral;
+    text-align: center;
+}
+
+.headingh3 {
+    padding:15px;
+}
+.row1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding:10px;
+    border-bottom-style:ridge;
+    border-bottom-width: thin;
+}
+.h1div{
+    padding-left: 10px;
+    padding-right: 10px;
+}
